@@ -1,2 +1,2 @@
 # TopoPaths
-Determines how many topopaths a graph may have.
+(Fall 2021)<br>A topopath is an ordering of vertices that corresponds to both a valid path in a directed graph as well as a valid topological sort. For this program, I was to code a means of determining how many potential topopaths that an inputted graph may have. I realized early on, however, that there can actually only be one topopath in a graph (if there is a cycle anywhere, it instantly means a topopath is not possible), so I adapted my professor's code for determining if a graph has a topological sort and made it so that it returned an integer rather than a boolean.
